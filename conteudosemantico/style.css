@@ -44,6 +44,29 @@ main{
 #destaques article{
     width: 22%;
     display: inline-block;
-    background-color: #ccc;
     margin: 0 1%;
+    vertical-align: top;
+}
+#destaques article div{
+    min-height: 300px;
+    background-color: #fff;
+    box-shadow: 0 3px 3px 1px rgba(0,0,0,0.4);
+    text-align: center;
+}
+#destaques article img{
+    width: 100%;
+}
+#destaques article h4{
+    padding: 4px 8px;
+    text-align: left;
+}
+
+/* COMPONENTES PADRÕES */
+.btn{
+    display: inline-block;
+    background-color: rgb(223, 131, 94);
+    padding: 8px 25px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
 }
