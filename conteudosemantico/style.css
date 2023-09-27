@@ -27,4 +27,23 @@
     text-decoration: none;
     text-transform: uppercase;
     color: red;
+    transition: 0.3s ease-out;
+}
+#navegacao ul li a:hover{
+    background-color: #ccc;
+    transition: 0.3s ease-in;
+}
+
+/* CONTEUDO */
+main{
+    max-width: 1280px;
+    margin:0 auto;
+    padding: 50px 0;
+}
+/* DESTAQUES */
+#destaques article{
+    width: 22%;
+    display: inline-block;
+    background-color: #ccc;
+    margin: 0 1%;
 }
