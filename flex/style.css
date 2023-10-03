@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body *{
+    display: flex;
+}
+.container{
+    /* display: flex; */
+    height: 100vh;
+    background-color: #ccc;
+    /* row padrão 
+    row-reverse - inverte a ordem
+    column faz se comportar como bloco
+    column-reverse faz o inverter como bloco
+    */
+    /* flex-direction: column-reverse; */
+
+    /* 
+    flex wrap
+    nowrap - padrão
+    wrap - faz as colunas ter seu tamanho correto e joga as demais para baixo quando atinge o limte
+    wrap-reverse
+     */
+     flex-wrap: wrap;
+
+     /* 
+     flex-flow
+    row nowrap
+      */
+      /* flex-flow: column wrap; */
+
+      /* justify content 
+      flex-start - padrão
+      flex-end - alinha os itens a direita
+      space-between
+      space-around
+
+      */
+      /* justify-content: center; */
+
+      /* align-itens
+      flex-start - padrao
+      flex-end
+      center
+      stretch
+      baseline
+      */
+      /* align-items: center; */
+
+      /* align-content 
+      flex-start - padrao
+      flex-end
+      center
+      stretch
+      space-between
+      space-around
+      */
+
+      /* align-content: center; */
+}
+.item{
+    width: 50%;
+    /* height: 100px; */
+    background-color: red;
+    text-align: center;
+    font-size: 1.5em;
+    border: 4px solid yellow;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
